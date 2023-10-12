@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.inline-block {
+	width: 200px;
+	height: 100px;
+	background-color: aquamarine;
+	margin: 10px;
+}
+
+.footer {
+	background-color: bisque;
+	margin: 0 3px 0 3px;
+}

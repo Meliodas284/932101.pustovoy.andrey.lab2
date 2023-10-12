@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	background-color: aqua;
+	border: 1px solid green;
+}
+
+@media (max-width: 600px) {
+	.container {
+		flex-direction: column;
+	}
+
+	.nav {
+		margin: 20px 0 20px 0;
+	}
+
+	
+	.nav ul {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.nav ul li {
+		list-style-type: none;
+	}
+}
+
+.nav {
+	background-color: bisque;
+	height: 20%;
+	flex-basis: 30%;
+	flex-shrink: 0;
+}
+
+.text-block {
+	background-color: gray;
+	flex-shrink: 4;
+}

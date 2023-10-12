@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.first-block {
+	width: 600px;
+	margin: 20px;
+}
+
+.second-block {
+	width: 600px;
+	padding: 20px;
+	border: 20px solid blue;
+}

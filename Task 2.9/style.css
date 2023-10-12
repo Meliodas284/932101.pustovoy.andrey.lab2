@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	overflow-x: auto;
+}
+
+.content {
+	background-color: blue;
+	width: 600px;
+	flex-shrink: 0;
+}
+
+.image {
+	float: right;
+}

@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: grey;
+}
+
+header h1 {
+	padding: 10px 0 50px 10px;
+}
+
+.left-column {
+	width: 200px;
+	float: left;
+	padding-left: 10px;
+	background-color: greenyellow;
+}
+
+.footer {
+	clear: left;
+	padding: 10px;
+	background-color: black;
+	text-align: center;
+}
+
+.footer a {
+	color: yellow;
+}

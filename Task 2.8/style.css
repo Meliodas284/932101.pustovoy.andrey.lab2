@@ -1,0 +1,34 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	margin: 5px;
+}
+
+.left-block {
+	width: 200px;
+	flex-shrink: 0;
+	background-color: turquoise;
+}
+
+.nav {
+	background-color: peru;
+	padding: 20px;
+}
+
+.text-block {
+	background-color: grey;
+}
+
+.footer {
+	background-color: green;
+	position: absolute;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	height: 80px;
+}

@@ -1,0 +1,21 @@
+p {
+	margin: 0;
+}
+
+.container {
+	display: flex;
+}
+
+.content {
+	background-color: aqua;
+	width: 100%;
+	border: 2px solid green;
+}
+
+.image {
+	float: right;
+}
+
+.image img {
+	display: block;
+}

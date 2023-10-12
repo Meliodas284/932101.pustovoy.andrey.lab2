@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: grey;
+}
+
+header h1 {
+	padding: 5px 0 50px 10px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.left-column {
+	flex-shrink: 0;
+	width: 25%;
+	height: 100%;
+	padding-left: 10px;
+	background-color: greenyellow;
+}
+
+.center-column {
+	padding: 0 10px 0 10px;
+}
+
+.right-column {
+	flex-shrink: 0;
+	width: 200px;
+	padding-left: 10px;
+	background-color: peru;
+}
+
+.footer {
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+}
+
+.footer a {
+	color: yellow;
+}
